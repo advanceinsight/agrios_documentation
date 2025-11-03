@@ -14,7 +14,22 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
+   :caption: User Guide
 
-   usage
-   api
-   markdown.md
+   user/introduction
+   user/installation
+   user/usage
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Developer Guide
+
+   developer/overview
+   developer/api/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Other
+
+   changelog
