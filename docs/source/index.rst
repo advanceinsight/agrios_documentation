@@ -1,4 +1,4 @@
-Welcome to the official AgriOS documentation.
+AgriOS documentation
 ===================================
 
 AgriOS is just awesome!
@@ -26,7 +26,9 @@ Contents
    :caption: Developer Guide
 
    developer/overview
-   developer/api/index
+   developer/odoo_community
+   developer/oca
+   developer/agrios_modules
 
 .. toctree::
    :maxdepth: 1

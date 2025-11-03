@@ -39,7 +39,7 @@ html_theme_options = {
     "source_branch": "main",
     "source_directory": "docs/source/",
     "light_css_variables" : {
-        # "color-brand-primary" : "#738700",
+        "color-brand-primary" : "#6b6f76",
         "color-sidebar-caption-text" : "#458A77",
         "color-sidebar-brand-text" : "#458A77",
         },
@@ -47,16 +47,6 @@ html_theme_options = {
         # "color-brand-primary" : "#e17f00"
         }
     }
-
-
-
-# html_context = {
-#     "display_github": True,                         # show the “Edit on GitHub” link
-#     "github_user": "advanceinsight",                # ⬅️ your GitHub org/user
-#     "github_repo": "agrios_documentation",          # ⬅️ your repo
-#     "github_version": "main",                       # branch
-#     "conf_py_path": "/docs/source/",                # path to your docs root, WITH trailing slash
-# }
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

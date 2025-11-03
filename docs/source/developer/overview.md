@@ -4,27 +4,31 @@ Welcome to the Developer Documentation for this project. This page provides a co
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [System Architecture](#system-architecture)
-- [Design Principles](#design-principles)
-- [Technology Stack](#technology-stack)
-- [Development Workflow](#development-workflow)
-- [Code Structure](#code-structure)
-- [Testing and Quality Assurance](#testing-and-quality-assurance)
-- [Deployment](#deployment)
-- [Contribution Guidelines](#contribution-guidelines)
-- [Troubleshooting](#troubleshooting)
-- [Resources](#resources)
+- [Developer Overview](#developer-overview)
+	- [Table of Contents](#table-of-contents)
+	- [Introduction](#introduction)
+	- [Odoo Community](#odoo-community)
+	- [OCA](#oca)
+	- [Design Principles](#design-principles)
+	- [Technology Stack](#technology-stack)
+	- [Development Workflow](#development-workflow)
+		- [Example Workflow](#example-workflow)
+	- [Code Structure](#code-structure)
+	- [Testing and Quality Assurance](#testing-and-quality-assurance)
+	- [Deployment](#deployment)
+	- [Contribution Guidelines](#contribution-guidelines)
+	- [Troubleshooting](#troubleshooting)
+	- [Resources](#resources)
 
 ## Introduction
 
 This section introduces the project from a developer's perspective, outlining its goals, scope, and the intended audience for this documentation. It provides context for new contributors and maintainers.
 
-## System Architecture
+## Odoo Community
 
 Describe the overall architecture of the system. Include diagrams or flowcharts if possible. Explain the main components, their responsibilities, and how they interact.
 
-### Example Diagram
+## OCA
 
 ```
 Component A <--> Component B <--> Component C
