@@ -3,6 +3,14 @@
     background: #1d8649 !important;  /* your green */
 }
 
+div.wy-side-nav-search {
+    background: #1d8649 !important;
+}
+
+.wy-nav-top {
+    background: #1d8649 !important;
+}
+
 /* Adjust link colour (optional) */
 a {
     color: #1d8649;
