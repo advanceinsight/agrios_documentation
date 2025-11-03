@@ -40,7 +40,8 @@ html_theme_options = {
     "source_directory": "docs/source/",
     "light_css_variables" : {
         "color-brand-primary" : "#738700",
-        "--color-foreground-muted" : "#738700",
+        "--color-sidebar-caption-text" : "#458A77",
+        "--color-sidebar-brand-text" : "#458A77",
         },
     "dark_css_variables" : {
         "color-brand-primary" : "#e17f00"
