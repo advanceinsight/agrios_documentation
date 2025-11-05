@@ -45,11 +45,13 @@ html_theme_options = {
     "dark_logo": "logo-dark-mode.png",
     "light_css_variables" : {
         "color-brand-primary" : "#6b6f76",
+        "color-brand-content" : "#6b6f76",
         "color-sidebar-caption-text" : "#458A77",
         "color-sidebar-brand-text" : "#458A77",
         },
     "dark_css_variables" : {
         "color-brand-primary" : "#6b6f76",
+        "color-brand-content" : "#6b6f76",
         "color-sidebar-caption-text" : "#5FD0B0",
         "color-sidebar-brand-text" : "#5FD0B0",
         }
