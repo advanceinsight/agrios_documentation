@@ -4,11 +4,11 @@
 .content h3 { font-size: 1.2rem !important; line-height: 1.35; }
 .content h4 { font-size: 1.0rem !important; line-height: 1.40; }
 
-/* Define a custom variable per theme */
-html[data-theme="light"] { --agrios-heading: #458A77; }
-html[data-theme="dark"]  { --agrios-heading: #5FD0B0; }
+/* Define per-theme var (cover both html/body just in case) */
+html[data-theme="light"], body[data-theme="light"] { --agrios-heading: #458A77; }
+html[data-theme="dark"],  body[data-theme="dark"]  { --agrios-heading: #5FD0B0; }
 
-/* Apply the variable to all relevant headings */
+/* Use it everywhere (once) */
 .content :is(h1,h2,h3,h4),
 main header h1,
 .page .header h1 {
