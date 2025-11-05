@@ -45,6 +45,8 @@ html_theme_options = {
         "color-brand-primary" : "#6b6f76",
         "color-sidebar-caption-text" : "#458A77",
         "color-sidebar-brand-text" : "#458A77",
+        "color-foreground-primary": "#458A77",
+        "font-size-h1": "1.4rem",
         },
     "dark_css_variables" : {
         # "color-brand-primary" : "#e17f00"
