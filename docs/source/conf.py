@@ -34,6 +34,8 @@ html_theme = 'furo'
 html_static_path = ["_static"]
 html_css_files = ["css/custom.css"]
 
+html_title = "Official Documentation"
+
 # FURO CSS
 # https://github.com/pradyunsg/furo/tree/main/src/furo/assets/styles/variables
 
@@ -41,17 +43,20 @@ html_theme_options = {
     "source_repository": "https://github.com/advanceinsight/agrios_documentation/",
     "source_branch": "main",
     "source_directory": "docs/source/",
+    "announcement": "The AgriOS documentation is still a work in progress.",
     "light_logo": "logo-light-mode.png",
     "dark_logo": "logo-dark-mode.png",
     "light_css_variables" : {
         "color-brand-primary" : "#6b6f76",
         "color-brand-content" : "#6b6f76",
+        "color-brand-visited" : "#6b6f76",
         "color-sidebar-caption-text" : "#458A77",
         "color-sidebar-brand-text" : "#458A77",
         },
     "dark_css_variables" : {
         "color-brand-primary" : "#6b6f76",
         "color-brand-content" : "#6b6f76",
+        "color-brand-visited" : "#6b6f76",
         "color-sidebar-caption-text" : "#5FD0B0",
         "color-sidebar-brand-text" : "#5FD0B0",
         }
