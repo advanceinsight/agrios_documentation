@@ -4,21 +4,32 @@
 .content h3 { font-size: 1.2rem !important; line-height: 1.35; }
 .content h4 { font-size: 1.0rem !important; line-height: 1.40; }
 
+/* Define a custom variable per theme */
+html[data-theme="light"] { --agrios-heading: #458A77; }
+html[data-theme="dark"]  { --agrios-heading: #5FD0B0; }
+
+/* Apply the variable to all relevant headings */
+.content :is(h1,h2,h3,h4),
+main header h1,
+.page .header h1 {
+  color: var(--agrios-heading) !important;
+}
+
 /* Colour white-mode */
-.content h1,
+/* .content h1,
 .content h2,
 .content h3,
 .content h4 {
   color: #458A77 !important;
-}
+} */
 
 /* === Dark-mode overrides === */
-html[data-theme="dark"] .content h1,
+/* html[data-theme="dark"] .content h1,
 html[data-theme="dark"] .content h2,
 html[data-theme="dark"] .content h3,
 html[data-theme="dark"] .content h4 {
-  color: #5FD0B0 !important;  /* lighter green for contrast on dark background */
-}
+  color: #5FD0B0 !important;
+} */
 
 /* Keep the ¶ anchor proportional */
 main .content .headerlink { font-size: 0.7em; }
