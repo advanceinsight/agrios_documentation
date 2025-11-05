@@ -4,16 +4,48 @@
 .content h3 { font-size: 1.2rem !important; line-height: 1.35; }
 .content h4 { font-size: 1.0rem !important; line-height: 1.40; }
 
-/* Define per-theme var (cover both html/body just in case) */
-html[data-theme="light"], body[data-theme="light"] { --agrios-heading: #458A77; }
-html[data-theme="dark"],  body[data-theme="dark"]  { --agrios-heading: #5FD0B0; }
+/* Define per-theme variable (cover both html/body just in case) */
+html[data-theme="light"],
+body[data-theme="light"] {
+  --agrios-heading: #458A77;  /* green for light mode */
+}
 
-/* Use it everywhere (once) */
+html[data-theme="dark"],
+body[data-theme="dark"] {
+  --agrios-heading: #5FD0B0;  /* lighter green for dark mode */
+}
+
+/* Auto mode: use system preference */
+html[data-theme="auto"],
+body[data-theme="auto"] {
+  /* default to light, then override with prefers-color-scheme below */
+  --agrios-heading: #458A77;
+}
+
+@media (prefers-color-scheme: dark) {
+  html[data-theme="auto"],
+  body[data-theme="auto"] {
+    --agrios-heading: #5FD0B0;
+  }
+}
+
+/* Apply it everywhere (once) */
 .content :is(h1,h2,h3,h4),
 main header h1,
 .page .header h1 {
   color: var(--agrios-heading) !important;
 }
+
+/* Define per-theme var (cover both html/body just in case) */
+/* html[data-theme="light"], body[data-theme="light"] { --agrios-heading: #458A77; }
+html[data-theme="dark"],  body[data-theme="dark"]  { --agrios-heading: #5FD0B0; } */
+
+/* Use it everywhere (once) */
+/* .content :is(h1,h2,h3,h4),
+main header h1,
+.page .header h1 {
+  color: var(--agrios-heading) !important;
+} */
 
 /* Colour white-mode */
 /* .content h1,
@@ -35,14 +67,14 @@ html[data-theme="dark"] .content h4 {
 main .content .headerlink { font-size: 0.7em; }
 
 /* Light-mode (explicit, so dark can't win by order) */
-html[data-theme="light"] .content :is(h1,h2,h3,h4) {
+/* html[data-theme="light"] .content :is(h1,h2,h3,h4) {
   color: #458A77 !important;
-}
+} */
 
 /* Dark-mode: higher specificity + covers page title outside .content */
-html[data-theme="dark"] body .content :is(h1,h2,h3,h4),
+/* html[data-theme="dark"] body .content :is(h1,h2,h3,h4),
 html[data-theme="dark"] body main header h1,
 html[data-theme="dark"] body .page .header h1 {
   color: #5FD0B0 !important;
-}
+} */
 
