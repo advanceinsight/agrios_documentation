@@ -1,4 +1,4 @@
-# Hosting
+# Hosting News
 
 AgriOS provides reliable and secure hosting for all initial users through our partner, Cloudpepper. This ensures that user data is protected, systems are highly available, and performance is optimized for agricultural operations.
 
