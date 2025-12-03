@@ -7,7 +7,7 @@ AgriOS documentation
 
    This project is under active development.
 
-Welcome to the user documentation. This section provides an overview of the system, its goals, and intended audience.
+Welcome to the official AgriOS documentation.
 
 Overview
 ==============
@@ -20,14 +20,6 @@ This documentation is broken down in five main sections:
 - Partners
 - Other
 
-Contents
---------
-
-.. toctree::
-   :hidden:
-   :maxdepth: 3
-
-   index
 
 .. toctree::
    :hidden:
