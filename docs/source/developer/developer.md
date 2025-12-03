@@ -7,7 +7,7 @@ Contents
 :maxdepth: 2
 :caption: Developer Guide
 
-developer/overview
-developer/odoo_community
-developer/oca
-developer/agrios_modules
+overview
+odoo
+oca
+agrios_modules

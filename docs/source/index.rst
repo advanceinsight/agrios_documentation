@@ -21,12 +21,9 @@ Contents
    :caption: User Guide
 
    user/introduction
-   user/installation/installation_1
-   user/installation/installation_2
-   user/installation/installation_3
+   user/installation
    user/usage
    user/heading
-
 
 .. toctree::
    :hidden:
@@ -42,7 +39,7 @@ Contents
    :caption: Developer Guide
 
    developer/overview
-   developer/odoo_community
+   developer/odoo
    developer/oca
    developer/agrios_modules
 

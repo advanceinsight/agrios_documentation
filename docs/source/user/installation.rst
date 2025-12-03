@@ -8,8 +8,7 @@ Contents
 --------
 
 .. toctree::
-    :maxdepth: 3
-    :caption: Installation
+    :maxdepth: 1
 
     installation/installation_1
     installation/installation_2
