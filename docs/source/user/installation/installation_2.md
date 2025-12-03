@@ -1,12 +1,13 @@
-# Installation
+# Installation 2
 
 This guide will help new users set up and start using the system quickly.
 
 ```{toctree}
 
-user/installation/installation_1
-user/installation/installation_2
-user/installation/installation_2
+user/introduction
+user/installation/prerequisites
+user/installation/installation
+user/installation/firststeps
 
 ## Prerequisites
 
