@@ -1,7 +1,5 @@
 # Odoo Community
 
-## Why Odoo Community?
-
 Odoo Community is a widely adopted open-source ERP platform known for its flexibility, scalability, and active global community. It provides a solid base for building custom business solutions, with modules for accounting, inventory, CRM, sales, and more. AgriOS extends these capabilities with specialized features for the agricultural sector.
 
 ## Key Benefits
