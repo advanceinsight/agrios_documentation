@@ -12,6 +12,6 @@ Contents
     :maxdepth: 3
     :caption: Installation
 
-    user/installation/installation_1
-    user/installation/installation_2
-    user/installation/installation_3
+    installation/installation_1
+    installation/installation_2
+    installation/installation_3

@@ -52,4 +52,12 @@ Contents
    partner/advance_insight
    partner/small_foundation
 
-changelog
+.. toctree::
+   :hidden:
+   :maxdepth: 3
+   :caption: Other
+
+   other/changelog
+   
+
+
