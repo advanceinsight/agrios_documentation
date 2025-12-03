@@ -21,7 +21,9 @@ Contents
    :caption: User Guide
 
    user/introduction
-   user/installation
+   user/installation/installation_1
+   user/installation/installation_2
+   user/installation/installation_3
    user/usage
    user/heading
 
