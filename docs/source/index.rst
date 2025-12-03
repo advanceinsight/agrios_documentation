@@ -3,14 +3,22 @@
 AgriOS documentation
 ===================================
 
-AgriOS is just awesome!
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
 .. note::
 
    This project is under active development.
+
+Welcome to the user documentation. This section provides an overview of the system, its goals, and intended audience.
+
+Overview
+==============
+
+This documentation is broken down in five main sections:
+
+- User Guide
+- Database Management
+- Developer Guide
+- Partners
+- Other
 
 Contents
 --------
@@ -19,22 +27,22 @@ Contents
    :hidden:
    :maxdepth: 3
 
-   introduction
+   index
 
 .. toctree::
    :hidden:
    :maxdepth: 3
    :caption: User Guide
 
-   user/installation
-   user/usage
    user/heading
+   user/user_faq
 
 .. toctree::
    :hidden:
    :maxdepth: 3
    :caption: Database Management
 
+   database/installation
    database/hosting
    database/version
 
@@ -47,6 +55,7 @@ Contents
    developer/odoo
    developer/oca
    developer/agrios_modules
+   developer/dev_faq
 
 .. toctree::
    :hidden:

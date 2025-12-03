@@ -1,4 +1,4 @@
-# Frequently Asked Questions (FAQ)
+# User FAQ
 
 Find answers to common questions about the system.
 

@@ -10,6 +10,6 @@ Contents
 .. toctree::
     :maxdepth: 1
 
-    installation/installation_1
-    installation/installation_2
-    installation/installation_3
+    installation/requirements
+    installation/cloudpepper
+    installation/self_hosted
