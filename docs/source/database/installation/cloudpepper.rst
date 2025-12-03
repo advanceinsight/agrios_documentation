@@ -2,7 +2,7 @@
 Cloudpepper
 ==============
 
-.. image:: ../img/cloudpepper.png
+.. image:: img/cloudpepper.png
    :alt: Cloudpepper
    :width: 400px
    :align: right
