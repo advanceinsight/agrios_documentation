@@ -4,7 +4,6 @@ Contents
 --------
 
 ```{toctree}
-:caption: User Guide
 
 user/introduction
 user/installation
