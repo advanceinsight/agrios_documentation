@@ -1,11 +1,6 @@
-# Installation 3
 
-Welcome to the user documentation. This section provides an overview of the system, its goals, and intended audience.
+==============
+Installation 3
+==============
 
-## Overview
-
-Describe the main purpose and scope of the system here.
-
-## Audience
-
-Specify who should read this documentation and what prior knowledge is expected.
+This guide will help new users set up and start using the system quickly.

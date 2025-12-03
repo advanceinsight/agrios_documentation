@@ -44,8 +44,7 @@ html_theme_options = {
     "source_branch": "main",
     "source_directory": "docs/source/",
     "announcement": "The AgriOS documentation is still a work in progress.",
-    "collapse_navigation": True,
-    # "navigation_depth": 3,   # allow level 3 in sidebar
+    "navigation_depth": 3,   # allow level 3 in sidebar
     "light_logo": "logo-light-mode.png",
     "dark_logo": "logo-dark-mode.png",
     "light_css_variables" : {

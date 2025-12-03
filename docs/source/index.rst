@@ -14,6 +14,7 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 3
    :caption: User Guide
 
    user/introduction
@@ -22,13 +23,15 @@ Contents
    user/heading
 
 
-.. toctree::   
+.. toctree::
+   :maxdepth: 3
    :caption: Database Management
 
    database/hosting
    database/version
 
 .. toctree::
+   :maxdepth: 3
    :caption: Developer Guide
 
    developer/overview
@@ -37,6 +40,7 @@ Contents
    developer/agrios_modules
 
 .. toctree::
+   :maxdepth: 3
    :caption: Partners
 
    partner/advance_insight
