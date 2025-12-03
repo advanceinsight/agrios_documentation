@@ -17,5 +17,3 @@ Odoo Enterprise builds on the Community edition by offering a range of proprieta
 - **Integration:** Better integration with third-party services and hardware.
 
 Choosing Enterprise is ideal for organizations that require advanced features, scalability, and dedicated support, while still benefiting from the flexibility and extensibility of the Odoo platform.
-# Odoo Enterprise
-
