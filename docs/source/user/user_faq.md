@@ -10,12 +10,9 @@ Find answers to common questions about the system.
 It's built on Odoo Community, a proven, open-source ERP platform. This ensures the system is scalable and robust and avoids vendor lock-in. It also integrates with specialised third-party tools like the Kobo Toolbox for offline data collection.
 
 - **Is AgriOS Open Source?**
-- **What technology is AgriOS built on?**
 AgriOS is fully open-source. It uses two well-known, widely trusted licenses:
-
 Odoo Community runs under the LGPL-v3 license. All AgriOS modules are released under the MPL-2.0 license. What this means in practice is simple:
 AgriOS is free to use, free to modify, and free to build on. Any improvements made to our modules must remain open, but organisations are free to create their own add-ons, integrations, and commercial services around AgriOS without restriction.
-
 This approach protects the openness of the AgriOS core while giving users, partners, and developers complete freedom to innovate. It ensures AgriOS remains a true digital public good—owned by the community, adaptable to local needs, and never locked behind a vendor.
 
 ## Cost & Business Model
