@@ -17,7 +17,7 @@ deploying AgriOS for customers, or a developer extending the system, this
 documentation is organized to get you productive quickly.
 
 Who this documentation is for
-------------------------------
+-----------------------------
 
 - Farmers and business users: step-by-step guides for common tasks and workflows.
 - System administrators: deployment, hosting and database management guidance.
@@ -32,6 +32,62 @@ How this documentation is organized
 The content is grouped into a small set of primary sections so you can quickly
 find what you need:
 
-- User Guide — user-facing workflows and how-to articles for day-to-day use.
-- Database Management — installation, hosting and versioning notes.
+- User Guide
+- Database Management
 - Developer Guide
+- Partners
+- Other
+
+
+.. toctree::
+   :hidden:
+   :maxdepth: 3
+   :caption: User Guide
+
+   user/introduction
+   user/farmers
+   user/sales
+   user/purchase
+   user/inventory
+   user/accounting
+   user/manufacturing
+   user/user_faq
+
+.. toctree::
+   :hidden:
+   :maxdepth: 3
+   :caption: Database Management
+
+   database/installation
+   database/hosting
+   database/version
+
+.. toctree::
+   :hidden:
+   :maxdepth: 3
+   :caption: Developer Guide
+
+   developer/overview
+   developer/odoo
+   developer/oca
+   developer/agrios_modules
+   developer/dev_faq
+
+.. toctree::
+   :hidden:
+   :maxdepth: 3
+   :caption: Partners
+
+   partner/advance_insight
+   partner/small_foundation
+
+.. toctree::
+   :hidden:
+   :maxdepth: 3
+   :caption: Other
+
+   other/changelog
+   other/roadmap
+   
+
+
