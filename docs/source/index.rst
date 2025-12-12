@@ -74,7 +74,10 @@ This documentation is broken down in five main sections:
    developer/overview
    developer/odoo
    developer/oca
+   developer/repository_structure
    developer/agrios_modules
+   developer/agrios_models
+   developer/agrios_naming
    developer/dev_faq
 
 .. toctree::
