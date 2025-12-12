@@ -1,5 +1,5 @@
 ==============================================
-Repository Structure & Module Responsibilities
+Repository Structure
 ==============================================
 
 This document explains how the AgriOS codebase is organised, how responsibilities are split across modules, and how developers should reason about where new logic belongs.

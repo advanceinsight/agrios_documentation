@@ -16,3 +16,4 @@ Contents
 
     odoo/odoo_community
     odoo/odoo_enterprise
+    odoo/oca_about
