@@ -4,31 +4,26 @@ Implementation Guide
 
 This guide explains **how to set up AgriOS for a real-world deployment**.
 It is written for **system owners, program managers, and implementers**
-who are responsible for making AgriOS work in practice — not just technically,
+who are responsible for making AgriOS work in practice: not just technically,
 but operationally and organizationally.
 
 This guide should be read **before any large-scale data entry begins**.
-
-.. contents::
-   :local:
-   :depth: 2
 
 ----------------------------------
 1. Purpose of This Guide
 ----------------------------------
 
 AgriOS is flexible by design.  
-That flexibility is powerful — and dangerous — if early decisions are unclear.
+That flexibility is powerful (and dangerous) if early decisions are unclear.
 
-This guide helps you:
+This guide helps you to:
 
-- make correct setup decisions
+- Make correct setup decisions
 - avoid irreversible mistakes
 - align software behavior with program reality
 - ensure data can be trusted by buyers, lenders, and regulators
 
-AgriOS does not enforce “one right way”.
-**You must choose your way deliberately.**
+AgriOS does not enforce “one right way”. **There are choices to be made.**
 
 ----------------------------------
 2. Who This Guide Is For
